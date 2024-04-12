@@ -1,6 +1,15 @@
-# zkSync Hardhat project template
+# zkSync Herodotus Turbo demo
 
 This project was scaffolded with [zksync-cli](https://github.com/matter-labs/zksync-cli).
+
+## Herodotus Turbo demo
+
+The `HeroDemo.sol` contract has two methods `proveHeaderProperty` and `proveAccountField`.
+
+1. Compile the contract with `bun run compile`
+2. Deploy the contract with `bun run deploy`
+3. Save the contract address and enter it in the `interact-turbo.ts` script.
+4. Execute the script with `bun run interact`
 
 ## Project Layout
 
